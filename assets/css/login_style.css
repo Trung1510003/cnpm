@@ -7,12 +7,12 @@
 
 .body {
   background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220425/pngtree-black-night-sky-with-illustrated-space-star-background-image_1078346.jpg');
-  position: relative;  /* Cần có position relative để phần tử absolute được căn chỉnh tương đối */
+  position: relative; 
 }
 
 .login-page {
   width: 40vw;
-  position: absolute;   /* Để căn chỉnh phần tử theo vị trí tuyệt đối */
+  position: absolute;  
   left: 672.5px;
   top: 92px;
 }
@@ -72,16 +72,13 @@
 }
 
 .form .message {
-  
+
   margin: 6px 6px;
   color: #808080;
   font-size: 11px;
   text-align: center;
   font-weight: bold;
   font-style: normal;
-
-  
-
 }
 .form .message a {
   color: #FFFFFF;
