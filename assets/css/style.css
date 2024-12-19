@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fontsz:28px;
+}
+.screen{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 100vw;
+    height: 55px;
+    background-color: #000;
+    position: relative;
+}
+#name button{
+    height: 55px;
+    background-color: #000;
+    font-size: var(--fontsz);
+    color: #fff;
+    border: 2px solid #000;
+    position: absolute;
+    left: 200px;
+}
+#introduce1 button{
+    height: 55px;
+    background-color: #000;
+    font-size: var(--fontsz);
+    color: #fff;
+    border: 2px solid #000;
+    position: absolute;
+    left: 700px;
+    /* margin-right: 100px; */
+}
+#introduce2 button{
+    height: 55px;
+    background-color: #000;
+    font-size: var(--fontsz);
+    color: #fff;
+    border: 2px solid #000;
+    position: absolute;
+    left: 830px;
+    /* margin-right: 100px; */
+}
+#introduce3 button{
+    height: 55px;
+    background-color: #000;
+    font-size: var(--fontsz);
+    color: #fff;
+    border: 2px solid #000;
+    position: absolute;
+    left: 972px;
+}
+#login{
+    height: 55px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1386px;
+}
+#login button{
+    padding: 10px;
+    font-size: larger;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    
+    border-radius: 9999px;
+    cursor: pointer;
+}
+#signup {
+    height: 55px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1500px;
+}
+#signup button {
+    padding: 10px;
+    font-size: larger;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.slider{
+    height: 771px;
+    /* background-color: blueviolet; */
+    background: url('/assets/img/WEB\ -\ BASED\ FOR\ ANSWERING\ QUESTIONS.png') top /contain no-repeat;
+}
