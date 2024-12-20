@@ -12,7 +12,6 @@
     height: 100vh;
 }
 .header{
-    width: 100vw;
     height: 55px;
     background-color: #000;
     position: relative;
@@ -95,5 +94,5 @@
 .slider{
     height: 771px;
     /* background-color: blueviolet; */
-    background: url('/assets/img/WEB\ -\ BASED\ FOR\ ANSWERING\ QUESTIONS.png') top /contain no-repeat;
+    background: url('/assets/img/slider.svg') top /contain no-repeat;
 }
